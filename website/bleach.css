@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+img.background {
+  min-height: 100%;
+  min-width: 1400px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+header {
+  width: 1920px;
+  background-color: rgba(255, 255, 255, 0.27);
+  backdrop-filter: blur(15px);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+#menu {
+  display: flex;
+  height: 70px;
+  margin-left: 130px;
+  color: white;
+  align-items: center;
+}
+nav a {
+  color: whitesmoke;
+  margin-right: 20px;
+  text-decoration: none;
+}
